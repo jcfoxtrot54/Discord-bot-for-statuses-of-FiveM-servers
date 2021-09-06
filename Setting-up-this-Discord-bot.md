@@ -3,6 +3,7 @@
 - A Discord account
 - A Discord guild (server) that you have administrative access on
 - A Windows installation
+- https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=3.1.0&arch=x64&rid=win10-x64
 
 ## Step 1 - register your bot
 - go to https://discord.com/developers/applications
