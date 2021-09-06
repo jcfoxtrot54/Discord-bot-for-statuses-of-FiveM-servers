@@ -2,8 +2,8 @@
 ## Aftermath Gameworks
 ### Status: in-service
 
-This is a basic python script that gets the status of all our servers.
-All code is commented.
+This is a basic C# script that gets the status of all our servers.
+I haven't commented all of the code for this resource just yet, however I'm not saying never.
 
-I accept no liability for any results of using this script, be it security or physical.
-Feel free to DM me on Discord (@JCF#7536) if you have any issues/questions.
+I accept no liability for any results of using this script, including but not explicitly: emotional, security, physical, an apocalypse, the collapse of a government, the moon caving in on itself before it explodes, or you standing on a piece of lego.
+This resource is under unlicense (https://unlicense.org/).

@@ -1,0 +1,18 @@
+{
+  "embedTitle": "INSERT EMBED TITLE HERE",
+  "embedSubtitle": "INSERT EMBED SUBTITLE HERE",
+  "embedUpdate": 10,
+  "embedColour": 3063681,
+  "botToken": "",
+  "guildID": 0,
+  "channelID": 0,
+  
+  "serverList": [
+    {
+      "externalIP": "127.0.0.1",
+      "internalIP": "127.0.0.1",
+      "port": "30120",
+      "displayName": "Template entry"
+    }
+  ]
+}

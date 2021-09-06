@@ -1,8 +1,8 @@
 # How to setup the Discord bot
 ## Prerequisites
 - A Discord account
-- Python
 - A Discord guild (server) that you have administrative access on
+- A Windows installation
 
 ## Step 1 - register your bot
 - go to https://discord.com/developers/applications
@@ -16,18 +16,20 @@
 
 ## Step 3 - configure the bot
 - enable Developer Mode in Discord (https://www.discordtips.com/how-to-enable-developer-mode-in-discord/)
-- copy the ID of the channel into `ChannelID`
-- put the servers you want in the `Servers` array
-- change the title of the embed in `EmbedTitle`
-- if you need to, you can change `UpdateDelay` and `CounterCap`
-- `PublicIP` is used so people can opt to direct connect to the servers. Change it to your server's public IP
-- set `BotToken` to your bot's token (you can get this from the bot's "Bot" tab by clicking "Copy" under "Token")
+- set `botToken` to your bot's token (you can get this from the bot's "Bot" tab by clicking "Copy" under "Token")
+- copy the ID of the guild into `guildID` (right click guild icon and press `Copy ID`)
+- copy the ID of the channel into `channelID` (right click channel tab and press `Copy ID`)
+- change the title and subtitle of the embed using `embedTitle` and `embedSubtitle`
+- if you need to, you can change `embedUpdate` (this value is in seconds!). This changes the delay in which each server is checked. I found 10 seconds is a good enough value but change at your own peril.
 
-## Step 4 - setup Python
-- make sure you have Python3 installed. If you're on Windows 10, you can find it on the Windows Store, if not download it from their website (https://www.python.org/)
-- install the required libraries - discord, requests, and json (you can do this by copying `pythom3 -m pip install LIBRARYNAME` in command prompt, where `LIBRARYNAME` are the three libraries)
-- run the code!
+- copying the template provided in `configuration.json`, fill in the details of each server in the JSON array
+
+- `externalIP` is used so people can opt to direct connect to the servers. Change it to your server's public IP
+- `internalIP` is used to check the individual servers. Please use localhost or 127.0.0.1 here if you an.
+- `port` is the port in which the FiveM server is hosted on
+- `displayName` is the name the server will be displayed as on the embed
 
 ## NOTES
 - all links in this document are accurate as of date of last update.
-- feel free to pr anything if you think it could do with being improved
+- feel free to submit a pr for anything if you think it could do with being improved
+- I am by far an expert on C#, but I figured the best way to learn is to put things into practice
